@@ -3,9 +3,39 @@
    --secondary-color: #e4e9feda;
 }
 
-* {
-    box-sizing: border-box;
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
 }
+#container .navbar ul li a ion-icon {
+  display: inline-flex;
+  font-size: 40px;
+  margin: 6px;
+  color: #2b2e4a;
+}
+.container {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-radius: 70px;
+  width: 4rem;
+  background-color: #f0f6ff;
+}
+.container ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 header {
     display: flex;
