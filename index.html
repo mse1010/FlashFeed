@@ -1,43 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlashFeed</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
-    
+  <body>
     <header>
-        <a href="#">
-            <img class="websitelogo" src="Assets/logo.png" alt="websitelogo" />
-        </a>
+      <a href="#">
+        <img class="websitelogo" src="Assets/logo.png" alt="websitelogo" />
+      </a>
     </header>
-    
+
     <aside>
-        <div class="container" id="container">
-            <div class="navbar">
-                <ul>
-                    <li><a href="#"><ion-icon name="home-outline"></ion-icon><span></span></a></li>
-                    <li><a href="#"><ion-icon name="search-circle-outline"></ion-icon><span></span></a></li>
-                    <li><a href="#"><ion-icon name="add-circle-outline"></ion-icon></ion-icon><span></span></a></li>
-                    <li><a href="#"><ion-icon name="chatbubbles-outline"></ion-icon><span></span></a></li>
-                    <li><a href="#"><ion-icon name="person-outline"></ion-icon><span></span></a></li>
-                </ul>
-            </div>
+      <div class="container" id="container">
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#"
+                ><ion-icon name="home-outline"></ion-icon><span></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon name="search-circle-outline"></ion-icon><span></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon name="add-circle-outline"></ion-icon><span></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon name="chatbubbles-outline"></ion-icon><span></span
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon name="person-outline"></ion-icon><span></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </aside>
-    
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
-        <main>
-           <div class="cardcontainer">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
 
-                    <div class="card">1</div>
-                    <div class="card">2</div>
-                    <div class="card">3</div>
-                    <div class="card">4</div>
-           </div>
-        </main>
-</body>
+    <main>
+      <div class="cardcontainer">
+        <div class="card">
+          <section class="cards-container">
+            <section class="card_1">
+              <div class="categorie">
+                <p>sport</p>
+              </div>
+
+              <div class="card-1">
+                <div class="card-container">
+                  <div class="img-container">
+                    <img
+                      src="img/equipe-france.jpg "
+                      alt="image de phillipe starck"
+                    />
+                  </div>
+
+                  <section>
+                    <h1>Pourquoi les Bleus sont en pleine polémique ?</h1>
+                    <article class="description">
+                      <p>
+                        Avant leur huitième de finale vendredi contre la
+                        Thaïlande, les Bleus du futsal se retrouvent dans la
+                        tourmente, en raison de soupçons d'arrangement lors de
+                        leur revers contre l'Iran en clôture de la phase de
+                        groupes (1-4).
+                      </p>
+                    </article>
+                  </section>
+                  <div class="button-container">
+                    <button class="card-button">en savoir plus</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card">4</div>
+      </div>
+    </main>
+  </body>
 </html>
