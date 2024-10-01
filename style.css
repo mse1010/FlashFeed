@@ -19,6 +19,7 @@ header {
   align-items: center;
   justify-content: space-around;
   height: 100px;
+  background: linear-gradient(black, #f0f6ff);
 }
 
 .websitelogo {
