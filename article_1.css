@@ -1,163 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    box-sizing: border-box;
-    
+* {
+  box-sizing: border-box;
 }
 
-
-.cards-container{
-    background-color: #F0F6FF;
+.cards-container {
+  background-color: #f0f6ff;
+  border-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-h1{
-    margin: 1rem 0;
-    font-size: 1rem;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e4e9feda;
+  width: 30vh;
+  height: 50vh;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
 }
 
-.description{
-    font-size: .70rem;
-    font-weight: 400;
+.texte {
+  text-align: center;
 }
 
-h2{
-    margin: .5rem 0;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #4e64c8;
+.texte h1 {
+  margin: 1rem 0;
+  font-size: 1.25rem;
 }
 
-.categorie{
-    color: rgb(1,1,1,0.15);
+.description {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-.categorie p{
-    margin-bottom: .35rem;
-    font-size: .85rem;
+h2 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #4e64c8;
 }
 
-main .card-1{
-    display: flex;
-    justify-content: center;
-
-    margin: 0rem 1rem;
-    height: 100%;
-    width: 20rem;
-
-   
+.categorie {
+  color: rgb(1, 1, 1, 0.15);
+  background-color: #e4e9feda;
+  margin-top: 1rem;
 }
 
-
-.card_1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    background-color: #ccd6ff;
-    font-family: "Exo 2";
-    color: #1d2131;
-    min-height: 100vh;
-    margin-left: 4rem;
-    background-color: var(--principal-color);
+.categorie p {
+  font-size: 1rem;
+  margin: 0;
 }
 
-.card-container{
+main .card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e4e9feda;
+
+  margin: 0rem 1rem;
+  height: auto;
+  width: 224px;
+  border-radius: 20px;
+}
+
+.card_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  background-color: #e4e9feda;
+  font-family: "Exo 2";
+  color: #1d2131;
+  height: 60vh;
+  width: 30vh;
+  border-radius: 20px;
+}
+
+.cards-container {
+  background-color: #e4e9feda;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vh;
+  height: 40vh;
+  justify-content: space-between;
+  padding-top: 0.25rem;
+}
+
+@media screen and (min-width: 630px) {
+  .card-container {
     background-color: #e4e9feda;
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    width: 14rem;
-    height: 22rem;
-    justify-content: space-between;
-    align-items: end;
-    border: 0.15rem solid rgb(1,1,1,0.15);
-    padding: .75rem .5rem;
- 
+    width: 70%;
+    height: 100%;
+    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
+    border: 0.15rem solid rgb(1, 1, 1, 0.8);
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+  }
 }
 
-@media  screen and (min-width:630px) {
-    .card-container{
-        background-color: #e4e9feda;
-        border-radius: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        width: 70%;
-        height: 100%;
-        box-shadow:1rem 1rem rgb(1,1,1,0.80);
-        border: 0.15rem solid rgb(1,1,1,0.80);
-        padding: 1.5rem 1rem;
-        margin-right: 1rem;
-    }
-}
-
-@media  screen and (min-width:900px) {
-    .card-container{
-        background-color: #e4e9feda;
-        border-radius: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        width: 50%;
-        height: 100%;
-        box-shadow:1rem 1rem rgb(1,1,1,0.80);
-        border: 0.15rem solid rgb(1,1,1,0.80);
-        padding: 1.5rem 1rem;
-        margin-right: 1rem;
-    }
-}
-
-
-@media  screen and (min-width:1200px) {
-    .card-container{
-        background-color: #e4e9feda;
-        border-radius: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        width: 30%;
-        height: 100%;
-        box-shadow:1rem 1rem rgb(1,1,1,0.80);
-        border: 0.15rem solid rgb(1,1,1,0.80);
-        padding: 1.5rem 1rem;
-        margin-right: 1rem;
-    }
-}
-
-.card-1 img{
-    width:100%;
-    height:100%;
-border-radius: 0.75rem;
-}
-
-
-
-.citation{
-    font-style: italic;
-    font-size: 1rem;
-}
-
-
-
-.card-button{
-    background-color:#0416b4c0;
-    color:#e4ebff;
-    border-radius:0.75rem;
-    border-style: none;
-    font-family:"Josefin Sans";
-    font-size:.65rem;
-    padding: 1px 4px 3px 4px ;
-    margin-top: 5px;
-    margin-right: 3px;
- }
-
-.button-container{
+@media screen and (min-width: 900px) {
+  .card-container {
+    background-color: #e4e9feda;
+    border-radius: 1.5rem;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+    height: 100%;
+    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
+    border: 0.15rem solid rgb(1, 1, 1, 0.8);
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+  }
 }
 
-.card-button:hover{
-    box-shadow: 0px 0px 10px #4e64c8;
+@media screen and (min-width: 1200px) {
+  .card-container {
+    background-color: #e4e9feda;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30%;
+    height: 100%;
+    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
+    border: 0.15rem solid rgb(1, 1, 1, 0.8);
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.card-1 img {
+  height: 100%;
+  border-radius: 0.75rem;
+}
+
+.img-container {
+  width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-button {
+  background-color: #0416b4c0;
+  color: #e4ebff;
+  border-radius: 0.75rem;
+  border-style: none;
+  font-family: "Josefin Sans";
+  font-size: 1rem;
+  padding: 3px 6px 5px 6px;
+  margin-top: 25px;
+  margin-right: 3px;
+}
+
+.button-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 0.5rem;
+}
+
+.card-button:hover {
+  box-shadow: 0px 0px 10px #4e64c8;
 }
