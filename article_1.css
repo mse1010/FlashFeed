@@ -93,52 +93,9 @@ main .card-1 {
   padding-top: 0.25rem;
 }
 
-@media screen and (min-width: 630px) {
-  .card-container {
-    background-color: #e4e9feda;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 70%;
-    height: 100%;
-    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
-    border: 0.15rem solid rgb(1, 1, 1, 0.8);
-    padding: 1.5rem 1rem;
-    margin-right: 1rem;
-  }
-}
 
-@media screen and (min-width: 900px) {
-  .card-container {
-    background-color: #e4e9feda;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 50%;
-    height: 100%;
-    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
-    border: 0.15rem solid rgb(1, 1, 1, 0.8);
-    padding: 1.5rem 1rem;
-    margin-right: 1rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .card-container {
-    background-color: #e4e9feda;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    width: 30%;
-    height: 100%;
-    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
-    border: 0.15rem solid rgb(1, 1, 1, 0.8);
-    padding: 1.5rem 1rem;
-    margin-right: 1rem;
-  }
+@media screen and (min-width: 1000px) {
+  
 }
 
 .card-1 img {

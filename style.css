@@ -25,6 +25,9 @@ header {
   border-color: #0b0f2e42;
 }
 
+@media screen and (min-width: 1000px) {
+}
+
 .websitelogo {
   width: 120px;
   margin-top: 5px;
@@ -43,9 +46,33 @@ footer {
   align-items: center;
 }
 
+@media screen and (min-width: 1000px) {
+  footer {
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-radius: 70px;
+    border-color: #0b0f2e42;
+    min-width: 4rem;
+    min-height: 85opx;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+
 .navbar {
   align-items: center;
   max-width: 390px;
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    max-width: 390px;
+  }
 }
 
 .navbar ul {
@@ -105,6 +132,24 @@ main {
   border-radius: 20px;
 }
 
+@media screen and (min-width: 1000px) {
+  .cardcontainer {
+    background-color: var(--principal-color);
+    height: 85vh;
+    width: 90vh;
+    overflow: auto;
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    scroll-snap-align: center;
+    border-radius: 20px;
+    border-style: ridge;
+  }
+}
+
 .container div {
   display: flex;
   flex-direction: column;
@@ -127,6 +172,21 @@ main {
   border-radius: 20px;
 }
 
+@media screen and (min-width: 1000px) {
+  .card {
+    min-height: 61vh;
+    min-width: 47vh;
+    background-color: var(--secondary-color);
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e4e9fe;
+    border-radius: 20px;
+  }
+}
+
 .card img {
-  width: 230px;
+  width: 330px;
 }
