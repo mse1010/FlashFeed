@@ -21,9 +21,40 @@ header {
   height: 64px;
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
-
+  padding-left: 125px;
   border-color: #0b0f2e42;
 }
+
+@media screen and (min-width:1400px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 64px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    padding-left: 600px;
+    border-color: #0b0f2e42;
+  }
+}
+header li   {
+  list-style: none;
+  height: 30px;
+  width: 30px;
+  font-size:33px;
+  padding-left: 15px;
+  
+  }
+
+  header ul li a  .ion-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    color: #2b2e4a;
+    
+   
+   }
 
 .websitelogo {
   width: 120px;
@@ -129,3 +160,4 @@ main {
 .card img {
   width: 230px;
 }
+
