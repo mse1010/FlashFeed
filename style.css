@@ -149,7 +149,8 @@ main {
   min-height: 61vh;
   min-width: 35vh;
   background-color: var(--secondary-color);
-  scroll-snap-align: start;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
   align-items: center;
