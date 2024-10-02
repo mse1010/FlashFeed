@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="inscription.css" />
+    <title>Document</title>
+  </head>
+  <body class="inscription">
+    <form action="">
+      <h2>Inscription</h2>
+      <div class="container-form">
+        <label for="name"> </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          placeholder="last name"
+        />
 
-    <form action="" method="get" class="container_form">
-        <div class="form">
-          <label for="name"> </label>
-          <input type="text" name="name" id="name" required  placeholder="Nom"/>
-          <label for="name"> </label>
-          <input type="text" name="name" id="name" required  placeholder="Prenom"/>
-        
-          <label for="email"></label>
-        <input type="email" id="email" pattern=".+@example\.com"  required placeholder="Email"/>
-   
-          <label for="pass"></label>
-          <input type="password" id="pass" name="password" minlength="8" required  placeholder="Password"/>
-          <label for="pass"></label>
-          <input type="password" id="pass" name="password" minlength="8" required  placeholder="Confirmation Password"/>
-    
-          <input type="submit" value="Connexion" />
-        
-    </div>
-      </form>
+        <label for="name"></label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          placeholder="first name"
+        />
 
-      <script src="index.js"></script>
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          pattern=".+@example\.com"
+          required
+          placeholder="Email"
+        />
 
-    
-</body>
+        <label for="pass"></label>
+        <input
+          type="password"
+          id="passs"
+          name="password"
+          minlength="8"
+          required
+          placeholder="Password"
+        />
+        <input
+          type="password"
+          id="pass"
+          name="password"
+          minlength="8"
+          required
+          placeholder="confirm password"
+        />
+      </div>
+
+      <div class="button_connexion">
+        <input type="submit" value="confirm" />
+      </div>
+    </form>
+  </body>
 </html>
