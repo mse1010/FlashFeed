@@ -33,30 +33,9 @@
   font-size: 1.25rem;
 }
 
-@media screen and (min-width: 1000px) {
-  .texte h1 {
-    margin: 1rem 0;
-    font-size: 1.25rem;
-  }
-}
-
 .description {
   font-size: 1rem;
   font-weight: 400;
-}
-
-@media screen and (min-width: 1000px) {
-  .description {
-    font-size: 0.75rem;
-    font-weight: 400;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .description-2 {
-    font-size: 0.75rem;
-    font-weight: 400;
-  }
 }
 
 h2 {
@@ -114,7 +93,52 @@ main .card-1 {
   padding-top: 0.25rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 630px) {
+  .card-container {
+    background-color: #e4e9feda;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 70%;
+    height: 100%;
+    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
+    border: 0.15rem solid rgb(1, 1, 1, 0.8);
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card-container {
+    background-color: #e4e9feda;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+    height: 100%;
+    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
+    border: 0.15rem solid rgb(1, 1, 1, 0.8);
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-container {
+    background-color: #e4e9feda;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30%;
+    height: 100%;
+    box-shadow: 1rem 1rem rgb(1, 1, 1, 0.8);
+    border: 0.15rem solid rgb(1, 1, 1, 0.8);
+    padding: 1.5rem 1rem;
+    margin-right: 1rem;
+  }
 }
 
 .card-1 img {
@@ -151,8 +175,7 @@ main .card-1 {
 }
 
 .card-button:hover {
-  box-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.28);
-  color: #ffffff;
+  box-shadow: 0px 0px 10px #4e64c8;
 }
 
 button a {
