@@ -33,9 +33,30 @@
   font-size: 1.25rem;
 }
 
+@media screen and (min-width: 1000px) {
+  .texte h1 {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+  }
+}
+
 .description {
   font-size: 1rem;
   font-weight: 400;
+}
+
+@media screen and (min-width: 1000px) {
+  .description {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .description-2 {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
 }
 
 h2 {
@@ -93,9 +114,7 @@ main .card-1 {
   padding-top: 0.25rem;
 }
 
-
 @media screen and (min-width: 1000px) {
-  
 }
 
 .card-1 img {
@@ -132,7 +151,8 @@ main .card-1 {
 }
 
 .card-button:hover {
-  box-shadow: 0px 0px 10px #4e64c8;
+  box-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.28);
+  color: #ffffff;
 }
 
 button a {
