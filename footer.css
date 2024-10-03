@@ -1,0 +1,66 @@
+/* footer {
+  max-width: 400px;
+  background-color: #f0f6ff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 60px;
+  max-width: 400px;
+}
+
+footer ul {
+  max-width: 400px;
+  padding: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 15px 0 15px;
+  list-style: none;
+  gap: 5px;
+  font-size: 10px;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #2b2e4a;
+} */
+
+/* Formulaire */
+/* .container_form {
+  background-color: rgb(15, 108, 40);
+  border-radius: 30%;
+  height: 30%;
+  width: 70%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 60px;
+  font-size: 5px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */

@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  max-height: 844px;
   margin: 0;
   padding: 0;
 }
@@ -18,26 +18,47 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  height: 100px;
- 
-  
+  height: 64px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  padding-left: 125px;
+  border-color: #0b0f2e42;
 }
 
-.li .ion-icon{
-  display: flex;
+@media screen and (min-width:1400px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 64px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    padding-left: 600px;
+    border-color: #0b0f2e42;
+  }
+}
+header li   {
   list-style: none;
-  width: 30px;
   height: 30px;
-}
+  width: 30px;
+  font-size:33px;
+  padding-left: 15px;
+  
+  }
 
-.icon-inner {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
-}
+  header ul li a  .ion-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    color: #2b2e4a;
+    
+   
+   }
 
 .websitelogo {
-  height: 100px;
+  width: 120px;
+  margin-top: 5px;
 }
 
 footer {
@@ -98,14 +119,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 844px;
 }
 
 .cardcontainer {
   background-color: var(--principal-color);
-  height: 80vh;
+  height: 85vh;
   width: 40vh;
-  display: flex;
   overflow: auto;
   gap: 2rem;
   display: flex;
@@ -130,7 +149,8 @@ main {
   min-height: 61vh;
   min-width: 35vh;
   background-color: var(--secondary-color);
-  scroll-snap-align: start;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,3 +161,4 @@ main {
 .card img {
   width: 230px;
 }
+
