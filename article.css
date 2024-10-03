@@ -5,15 +5,6 @@
 
 body {
   background-color: var(--principal-color);
-  padding: 1rem;
-}
-
-.bookmark {
-  color: #2b2e4a;
-}
-
-.nav-right {
-  color: #2b2e4a;
 }
 
 .article h2 {
