@@ -30,6 +30,18 @@
   /* -webkit-transform: translate(-50%, -50%); */
 }
 
+.inscription a {
+  color: #2b2e4a;
+}
+
+.connexion a {
+  color: #2b2e4a;
+}
+
+.btn-insc {
+  padding-bottom: 2rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -106,7 +118,7 @@ form input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  justify-content: space-evenly;
 }
 .box_icon i {
   color: #2b2e4a;

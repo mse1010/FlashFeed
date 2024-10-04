@@ -64,9 +64,20 @@ header ul li a .ion-icon {
 @media screen and (min-width: 1400px) {
   .bookmark:hover {
     color: #2b2e4a;
-    height: 40px;
-    width: 40px;
-    transition: all 0.2s;
+    background: #93a7eea3;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
   }
 }
 
@@ -89,7 +100,7 @@ footer ul a {
 }
 
 @media screen and (min-width: 1000px) {
-  footer {
+  .footer-1 {
     border-right-style: solid;
     border-right-width: 1px;
     border-radius: 70px;
@@ -183,9 +194,20 @@ footer ul li a ion-icon {
 
 @media screen and (min-width: 1000px) {
   footer ul li a ion-icon:hover {
-    width: 40px;
-    height: 40px;
-    transition: all 0.2s;
+    background: #93a7eea3;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
     color: #2b2e4a;
   }
 }
